@@ -5,14 +5,24 @@ module.exports = {
   ],
   theme: {
     colors: {
-      'gray-900': '#121214',
-      'gray-800': '#202024',
-      'gray-400': '#75758A',
-      'gray-200': '#E1E1E6',
-      'gray-100': '#C4C4CC',
+      black: '#000000',
+      white: '#ffffff',
 
-      'cyan-500': '#81D8F7',
-      'cyan-300': '#9BE1FB'
+      gray: {
+        900: '#121214',
+        800: '#202024',
+        400: '#75758A',
+        200: '#E1E1E6',
+        100: '#C4C4CC',
+      },
+
+      cyan: {
+        500: '#81D8F7',
+        300: '#9BE1FB'
+      },
+
+      transparent: 'transparent'
+
     },
     fontSize: {
       xs: 14,
